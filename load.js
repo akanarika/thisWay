@@ -2,9 +2,12 @@ Game = {};
 
 /*var w = 350;
 var h = 350;*/
-var height = 600-60;
+var height = 600;//-60;
 var width = 600;
 var score = 0;
+
+var lineHeight = 18;
+var lineWidth = 28;
 
 /*WebFontConfig = {
     google: {
@@ -33,8 +36,22 @@ Game.Load.prototype = {
 		//this.game.load.tilemap('map_1', 'map/level_1.json', null, Phaser.Tilemap.TILED_JSON);
 		this.load.image('wall', 'assets/wall.png');
 		this.load.tilemap('level_1', 'map/level_1.json', null, Phaser.Tilemap.TILED_JSON);
+		this.load.tilemap('level_2', 'map/level_2.json', null, Phaser.Tilemap.TILED_JSON);
 		this.load.image('collection_1', 'assets/collection_1.png');
+		this.load.image('collection_2', 'assets/collection_2.png');
+		this.load.image('thorns', 'assets/thorns.png');
+		
+		this.load.image('goal', 'assets/Goal.png');
+		/********level_1*****/
 		this.load.image('movePlat', 'assets/movePlat.png');
+		/*********************/
+		/********level_2*****/
+		this.load.spritesheet('thornsheet', 'assets/thorns.png', 60, 60);
+		
+		/*********************/
+
+
+
 		this.load.spritesheet('player', 'assets/player/player.png', 60, 60);
 	
 	},

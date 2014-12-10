@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="28" height="18" tilewidth="60" tileheight="60">
+ <tileset firstgid="1" name="collection_2" tilewidth="60" tileheight="60">
+  <image source="../assets/collection_2.png" width="480" height="60"/>
+ </tileset>
+ <tileset firstgid="9" name="thorns" tilewidth="60" tileheight="60">
+  <image source="../assets/thorns.png" width="480" height="60"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="28" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzNlF0KgDAMg+cB/Ln/aUVQKCVtkrEHA8NNW7/Y1Y3xP20Lh8rr1kjnO2Ksy0PxzL/LW1kblacKeUFzdY/Ztz33D+Ile1DUMTsemru8nDvD28O1qme1Fy6P9SF65wXycw7yx3ypvCz2vOKxmrk89X9Uel7hKco8pz7fOvahkp957v5354oTX/WmotlzmsXf5csBtw==
+  </data>
+ </layer>
+</map>

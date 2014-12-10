@@ -35,23 +35,30 @@ Game.Load.prototype = {
 	preload: function () {
 		//this.game.load.tilemap('map_1', 'map/level_1.json', null, Phaser.Tilemap.TILED_JSON);
 		this.load.image('wall', 'assets/wall.png');
-		this.load.tilemap('level_1', 'map/level_1.json', null, Phaser.Tilemap.TILED_JSON);
+		this.load.tilemap('level_1', 'map/level_1.json', null, Phaser.Tilemap.TILED_JSON);		
 		this.load.tilemap('level_2', 'map/level_2.json', null, Phaser.Tilemap.TILED_JSON);
+		this.load.tilemap('level_3', 'map/level_2.json', null, Phaser.Tilemap.TILED_JSON);
 		this.load.image('collection_1', 'assets/collection_1.png');
 		this.load.image('collection_2', 'assets/collection_2.png');
-		this.load.image('thorns', 'assets/thorns.png');
+		this.load.image('collection_3', 'assets/collection_2.png');
+		this.load.image('button', 'assets/button.png');
+
+		this.load.image('wall_1', 'assets/wall_1.png');
+		this.load.image('wall_2', 'assets/wall_2.png');
+		this.load.image('wall_3', 'assets/wall_2.png');
 		
+		this.load.image('thorns', 'assets/thorns.png');
 		this.load.image('goal', 'assets/Goal.png');
 		/********level_1*****/
 		this.load.image('movePlat', 'assets/movePlat.png');
 		/*********************/
+
 		/********level_2*****/
 		this.load.spritesheet('thornsheet', 'assets/thorns.png', 60, 60);
-		
+		this.load.spritesheet('gearsheet', 'assets/collection_2.png', 60, 60);
+		this.load.spritesheet('gravity', 'assets/gravity.png', 60, 60);
+		this.load.image('box', 'assets/box.png');
 		/*********************/
-
-
-
 		this.load.spritesheet('player', 'assets/player/player.png', 60, 60);
 	
 	},
